@@ -1,0 +1,21 @@
+.auth-wrapper {
+  min-height: 100vh;
+  background: linear-gradient(to right, #292E49, #536976);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  background-image: url('/public/img1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.auth-box {
+  background-color: rgba(255, 255, 255, 0.95);
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.4);
+  width: 100%;
+  max-width: 400px;
+}

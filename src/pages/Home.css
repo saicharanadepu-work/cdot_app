@@ -1,0 +1,33 @@
+.home-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-image: url('/public/img1.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+.home-header {
+  padding: 4rem 2rem;
+  background: rgba(0, 0, 0, 0.7);
+  text-align: center;
+}
+
+.home-main {
+  flex: 1;
+  padding: 2rem;
+  color: #eee;
+  backdrop-filter: blur(1px);
+  text-align: center;
+}
+
+.home-main img {
+  max-width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+}
+
+.home-footer {
+  background-color: #111;
+}

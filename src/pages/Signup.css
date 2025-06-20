@@ -1,0 +1,51 @@
+/* Signup.css */
+
+.signup-container {
+  background: linear-gradient(to right, #f1f2f6, #dfe4ea);
+  padding: 40px 0;
+}
+
+.card {
+  border: none;
+  border-radius: 15px;
+  background-color: #ffffff;
+}
+
+.card h3 {
+  font-weight: 600;
+  color: #007bff;
+}
+
+.form-control,
+.form-select {
+  border-radius: 8px;
+  transition: all 0.3s ease-in-out;
+}
+
+.form-control:focus,
+.form-select:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+  border-radius: 8px;
+  padding: 10px;
+  font-weight: 600;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+label.form-label {
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+input[type="file"] {
+  padding: 5px;
+}
